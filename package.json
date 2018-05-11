@@ -1,0 +1,23 @@
+{
+  "name": "vote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dateformat": "^3.0.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "uuid": "^3.2.1",
+    "winston": "^2.4.1",
+    "winston-daily-rotate-file": "^3.1.2"
+  }
+}
